@@ -35,3 +35,7 @@ Your `.tex` file body must be of the form:
 
 <Contributions, laid out with \subsections>.
 ```
+
+### Commits
+
+Your commits are always cleaned before they are commited, so you don't have to worry about writing bad code, or useless files.
