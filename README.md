@@ -16,6 +16,14 @@ Build it using `xelatex main.tex -pdf` to build a pdf, assuming you're in the sa
 
 Clear all auxillary files using `latexmk -c`
 
+### NPM Commands
+
+We have a selection of useful `npm` commands, like:
+
+`npm test`: Compiles project, then deletes output files if compilation is successful.
+
+`npm run clean`: Runs `latexmk -c` on your files. This is also run as a pre-commit hook.
+
 ## Contributing
 
 ### Folders
