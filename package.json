@@ -1,0 +1,29 @@
+{
+  "name": "engineering-notebook",
+  "version": "0.0.1",
+  "description": "The engineering notebook for our vex team",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^3.0.5"
+  },
+  "scripts": {
+    "test": "cd src/ && xelatex -pdf main.tex && latexmk -C",
+    "clean": "cd src/ && latexmk -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vexteam2019-20/EngineeringNotebook.git"
+  },
+  "author": "Rishi Kothari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vexteam2019-20/EngineeringNotebook/issues"
+  },
+  "homepage": "https://github.com/vexteam2019-20/EngineeringNotebook#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run clean"
+    }
+  }
+}

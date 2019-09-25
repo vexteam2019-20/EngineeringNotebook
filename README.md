@@ -4,6 +4,12 @@ Welcome! This is our virtual engineering notebook for 2019-20. Find the compiled
 
 ## Building
 
+### Setup
+
+First, `git clone` this repository, then run `npm i`, assuming you're on the latest version of `node`. This will install `husky-hooks`, which we're using for quality control.
+
+### LaTeX
+
 This notebook is created using the LaTeX language, and so it requires installation of the LaTeX language.
 
 Build it using `xelatex main.tex -pdf` to build a pdf, assuming you're in the same directory as `main.tex`.
