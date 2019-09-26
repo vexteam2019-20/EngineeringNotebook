@@ -2,6 +2,8 @@
 
 Welcome! This is our virtual engineering notebook for 2019-20. Find the compiled `.pdf` file [here](https://github.com/vexteam2019-20/EngineeringNotebook/blob/master/src/main.pdf).
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/92f1e7b5af7a42e096bf52b91ee0e8d7)](https://www.codacy.com/manual/rishiosaur/EngineeringNotebook?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vexteam2019-20/EngineeringNotebook&amp;utm_campaign=Badge_Grade)
+
 ## Building
 
 ### Setup
