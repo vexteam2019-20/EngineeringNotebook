@@ -2,6 +2,8 @@
 
 Welcome! This is our virtual engineering notebook for 2019-20. Find the compiled `.pdf` file [here](https://github.com/vexteam2019-20/EngineeringNotebook/blob/master/src/main.pdf).
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/92f1e7b5af7a42e096bf52b91ee0e8d7)](https://www.codacy.com/manual/rishiosaur/EngineeringNotebook?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vexteam2019-20/EngineeringNotebook&amp;utm_campaign=Badge_Grade)
+
 ## Building
 
 ### Setup
@@ -15,6 +17,14 @@ This notebook is created using the LaTeX language, and so it requires installati
 Build it using `xelatex main.tex -pdf` to build a pdf, assuming you're in the same directory as `main.tex`.
 
 Clear all auxillary files using `latexmk -c`
+
+### NPM Commands
+
+We have a selection of useful `npm` commands, like:
+
+`npm test`: Compiles project, then deletes output files if compilation is successful.
+
+`npm run clean`: Runs `latexmk -c` on your files. This is also run as a pre-commit hook.
 
 ## Contributing
 
